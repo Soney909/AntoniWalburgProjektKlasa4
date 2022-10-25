@@ -9,3 +9,42 @@ header{
     border: black solid 7px;
     border-radius: 23px;
 }
+section{
+    position: relative;
+    margin-top: 1em;
+    width: 100%;
+    height: 50px;
+    background-color: #0F3460;
+    border: black solid 7px;
+    border-radius: 20px;
+}
+.nav-left{
+    position: relative;
+    width: 25%;
+    height: 650px;
+    float: left;
+    background-color: #0F3460;
+    margin-top: 5em;
+    border: black solid 7px;
+    border-radius: 20px;
+}
+.nav-right{
+    position: relative;
+    width: 70%;
+    height: 650px;
+    float: right;
+    background-color: #0F3460;
+    margin-top: 5em;
+    border: black solid 7px;
+    border-radius: 20px;
+}
+#footer{
+    position: fixed;
+    margin-top: auto;
+    width: 100%;
+    height: 50px;
+    background: #533483;
+    border: black solid 7px;
+    border-radius: 23px;
+    bottom: 0;
+}
