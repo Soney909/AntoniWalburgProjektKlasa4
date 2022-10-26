@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    background-color: #16213E;
+}
+header{
+    display: block;
+    width: 100%;
+    height: 65px;
+    background-color: #533483;
+    border: black solid 7px;
+    border-radius: 23px;
+    color: white;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1em;
+    
+}
+.center{
+    display: block;
+    width: 25%;
+    float: right;
+    background-color: #533483;
+}
+.login{
+    display: block;
+    position: relative;
+    width: 40%;
+    background-color: white;
+    border: black solid 7px;
+    border-radius: 23px;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+
+}
+.register{
+    display: block;
+    position: relative;
+    width: 40%;
+    background-color: white;
+    border: black solid 7px;
+    border-radius: 23px;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    float: right;
+    vertical-align: middle;
+
+}
+nav{
+    position: relative;
+    margin-top: 1em;
+    width: 100%;
+    height: 50px;
+    background-color: #0F3460;
+    border: black solid 7px;
+    border-radius: 20px;
+}
+.right{
+    position: relative;
+    width: 25%;
+    height: 750px;
+    float: left;
+    background-color: #0F3460;
+    margin-top: 1em;
+    border: black solid 7px;
+    border-radius: 20px;
+}
+.left{
+    position: relative;
+    width: 70%;
+    height: 750px;
+    float: right;
+    background-color: #0F3460;
+    margin-top: 1em;
+    border: black solid 7px;
+    border-radius: 20px;
+}
+#footer{
+    position: fixed;
+    margin-top: auto;
+    width: 100%;
+    height: 50px;
+    background: #533483;
+    border: black solid 7px;
+    border-radius: 23px;
+    bottom: 0;
+}
